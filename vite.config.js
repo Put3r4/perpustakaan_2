@@ -5,10 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
     plugins: [
-        // 1. Tailwind CSS dipasang di atas plugin laravel
         tailwindcss(), 
-        
-        // 2. Plugin Laravel beserta konfigurasi font Instrument Sans
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
