@@ -1,5 +1,5 @@
 {
-    "$schema": "https://getcomposer.org/schema.json",
+    "$schema": "https://schema.packagist.org/composer.json",
     "name": "laravel/blank-livewire-starter-kit",
     "type": "project",
     "description": "The official Laravel starter kit for Livewire.",
@@ -103,13 +103,16 @@
         }
     },
     "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "php-http/discovery": true
-        }
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+        "pestphp/pest-plugin": true,
+        "php-http/discovery": true
+    },
+    "platform": {
+        "php": "8.2.31"
+     }
     },
     "minimum-stability": "stable",
     "prefer-stable": true
